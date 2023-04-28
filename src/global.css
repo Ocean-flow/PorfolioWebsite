@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* Colors */
+  --color-brown: #9f1e1e;
+  --color-gainsboro: #d9d9d9;
+}

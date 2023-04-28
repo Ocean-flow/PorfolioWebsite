@@ -1,0 +1,31 @@
+.frameChild,
+.frameInner,
+.frameItem,
+.rectangleDiv {
+  position: absolute;
+  top: 508px;
+  left: 0;
+  background-color: var(--color-gainsboro);
+  width: 1536px;
+  height: 119px;
+}
+.frameInner,
+.frameItem,
+.rectangleDiv {
+  top: 119px;
+}
+.frameInner,
+.rectangleDiv {
+  top: 627px;
+  background-color: var(--color-brown);
+}
+.rectangleDiv {
+  top: 0;
+}
+.rectangleParent {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 746px;
+  overflow: hidden;
+}
