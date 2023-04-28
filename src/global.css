@@ -1,7 +1,12 @@
 body {
   margin: 0;
   line-height: normal;
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
 }
+::-webkit-scrollbar { /* For Chrome, Safari, and Opera */
+    display: none;
+  }
 :root {
   /* Colors */
   --color-brown: #9f1e1e;
